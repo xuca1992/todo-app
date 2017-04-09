@@ -1,0 +1,55 @@
+.content{
+   color:white;
+   text-align:center;
+   background-color:green;
+   padding: 30px 40px;
+}
+.content:after{
+    display:table;
+    content: "";
+    clear: both;
+}
+.todoInpClass{
+    border: 6px;
+    border-color: black;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    color:black;
+}
+.addTodoCl{
+   background-color:#d9d9d9;
+   padding: 10px;
+   width: 25%;
+   text-align: center;
+   font-size: 16px;
+   cursor: pointer;
+   float:left;
+   transition: 0.3s;
+}
+.addTodoCl:hover{
+  background-color:#bbb;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+.textInpClass{
+  border: 2px;
+  border-color: black;
+  width: 25%;
+  float: left;
+  font-size: 16px;
+  color:black;
+}
+.form-control{
+  display: inline-block;
+  width: 25%;
+  float:left;
+}
